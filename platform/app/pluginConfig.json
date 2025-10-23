@@ -65,6 +65,14 @@
     {
       "packageName": "@ohif/extension-ultrasound-pleura-bline",
       "version": "3.0.0"
+    },
+    {
+      "packageName": "custom-export",
+      "version": "0.0.1"
+    },
+    {
+      "packageName": "@ohif/extension-custom-export",
+      "version": "0.0.1"
     }
   ],
   "modes": [
@@ -99,6 +107,10 @@
     {
       "packageName": "@ohif/mode-ultrasound-pleura-bline",
       "version": "3.0.0"
+    },
+    {
+      "packageName": "export",
+      "version": "0.0.1"
     }
   ],
   "public": [
