@@ -54,7 +54,7 @@ To do this simply
      - Once we have the metadata and image blob we wrap that in a zip file stored in temp file, that we then download. All client side.  
 
 - ### Challenges:
-  - Main challenges was configuration management, whilst the documentation did specify node version above 18, at version 19, the version I had I heard errors. I experimented with running the project as a container in docker, but ultimately I found that it was more efficient, to manage my versions of node with nvm natively.
+  - Main challenges was configuration management, whilst the documentation did specify node version above 18, at version 19, the version I had also had errors. I experimented with running the project as a container in docker, but ultimately I found that it was more efficient, to manage my versions of node with nvm natively.
   - Inconsistencies with documentaton and code examples found online from other external sources, so I moved to looking through this interanl project directly to see how other extensions where implemented, to avoid following outdated design patterns.
 
 ### Assumptions:
